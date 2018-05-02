@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_x="36dp"
+        android:layout_y="32dp"
+        android:text="@string/title"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="108dp"
+        android:text="@string/text3"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/Sex"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_x="147dp"
+        android:layout_y="96dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男性"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女性"></RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_x="34dp"
+        android:layout_y="156dp"
+        android:text="@string/text1"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/hight"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_x="141dp"
+        android:layout_y="144dp"
+        android:numeric="decimal"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_x="35dp"
+        android:layout_y="212dp"
+        android:text="@string/text2"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="203dp"
+        android:numeric="decimal"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_x="172dp"
+        android:layout_y="268dp"
+        android:text="計算" />
+</AbsoluteLayout>
